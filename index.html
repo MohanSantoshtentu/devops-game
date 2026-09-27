@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DevOps Quest — Learn EC2, Docker, Jenkins, GitHub & Kubernetes</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app">
+    <header class="topbar">
+      <div class="brand">
+        <span class="logo">⚙️</span>
+        <div>
+          <h1>DevOps Quest</h1>
+          <p class="tag">Ship it. Scale it. Don't break prod.</p>
+        </div>
+      </div>
+      <div class="stats">
+        <div class="stat"><span>XP</span><strong id="xp">0</strong></div>
+        <div class="stat"><span>Lives</span><strong id="lives">3</strong></div>
+        <div class="stat"><span>Badges</span><strong id="badges">0</strong>/5</div>
+        <div class="stat"><span>Streak</span><strong id="streak">0</strong></div>
+      </div>
+    </header>
+
+    <main id="screen"></main>
+
+    <footer class="foot">
+      Five worlds · pop quizzes can strike anytime · wrong answers cost a life · earn every badge to become a DevOps Ranger
+    </footer>
+  </div>
+
+  <div id="modal" class="modal hidden" role="dialog" aria-modal="true">
+    <div class="modal-card" id="modalCard"></div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
